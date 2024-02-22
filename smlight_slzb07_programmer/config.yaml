@@ -2,7 +2,7 @@
 version: 1.0.0
 name: SMLIGHT SLZB-07 Programmer
 slug: smlight_slzb-07_programmer
-description: Program the manufacturer and vendor strings to a SLZB-07's CP2102N chip
+description: Program the manufacturer and vendor strings to a SLZB-07s CP2102N chip
 url: "https://github.com/tl-sl/smlight_programmer/tree/master/smlight_slzb07_programmer"
 image: darkxst/{arch}-addon-smlight_slzb07_programmer
 arch:
