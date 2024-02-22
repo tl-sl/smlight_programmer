@@ -10,7 +10,7 @@ declare exit_status
 
 function cleanup() {
     exit_status=$?
-    bashio::log.info "skyconnect-cp2102n-programmer script exited with code ${exit_status}"
+    bashio::log.info "smlight-slzb-07-programmer script exited with code ${exit_status}"
     echo "${exit_status}" > /run/s6-linux-init-container-results/exitcode
 
     /run/s6/basedir/bin/halt
@@ -27,8 +27,8 @@ if [ -z "$device_busnum" ] || [ -z "$device_devnum" ]; then
 	bashio::exit.nok "Could not find USB device or bus numbers for $device"
 fi
 
-cp210x-cfg -N "$(bashio::config 'advanced.product')" -C "$(bashio::config 'advanced.manufacturer')" -d "$device_busnum.$device_devnum"
+cp210x-cfg -N "SMLIGHT SLZB-07" -C "SMLIGHT" -d "$device_busnum.$device_devnum"
 
 bashio::log.green '-------------------------------------------------------------------'
-bashio::log.green 'Programming successful. Unplug your SkyConnect and plug it back in!'
+bashio::log.green 'Programming successful. Unplug your SLZB-07 and plug it back in!'
 bashio::log.green '-------------------------------------------------------------------'

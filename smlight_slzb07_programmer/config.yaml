@@ -19,9 +19,6 @@ init: false
 usb: true
 options:
   device: null
-  advanced:
-    manufacturer: "SMLIGHT"
-    product: "SMLIGHT SLZB-07"
 schema:
   device: device(subsystem=tty)
   advanced:
