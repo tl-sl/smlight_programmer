@@ -1,5 +1,5 @@
 ---
-version: 0.0.98
+version: 1.0.0
 name: SMLIGHT SLZB-07 Programmer
 slug: smlight_slzb-07_programmer
 description: Program the manufacturer and vendor strings to a SLZB-07's CP2102N chip
