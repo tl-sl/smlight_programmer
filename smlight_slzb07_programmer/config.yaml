@@ -3,8 +3,8 @@ version: 0.0.98
 name: SMLIGHT SLZB-07 Programmer
 slug: smlight_slzb-07_programmer
 description: Program the manufacturer and vendor strings to a SLZB-07's CP2102N chip
-url: "https://github.com/home-assistant/addons-development/tree/master/skyconnect_cp2102n_programmer"
-image: homeassistant/{arch}-addon-smlight_slzb07_programmer
+url: "https://github.com/tl-sl/smlight_programmer/tree/master/smlight_slzb07_programmer"
+image: smlight/{arch}-addon-smlight_slzb07_programmer
 arch:
   - armhf
   - armv7
