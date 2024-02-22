@@ -21,6 +21,3 @@ options:
   device: null
 schema:
   device: device(subsystem=tty)
-  advanced:
-    manufacturer: str
-    product: str
