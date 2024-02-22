@@ -17,3 +17,5 @@
 Programs the manufacturer and product strings on the SLZB-07's USB-serial chip.
 
 *Note: This will change the serial port name of the SLZB-07. Any integration using it will need to be updated.*
+
+
